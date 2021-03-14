@@ -87,7 +87,7 @@ a {
   padding: 10px;
 }
 .list-item > a:hover {
-  color: grey;
+  color: cyan;
 }
 /* MAIN */
 .main {
@@ -322,11 +322,63 @@ input[type="email"] {
 /* FOOTER */
 .footer {
   background: green;
+  height: 130px;
 }
-.links {
-  background: lightgreen;
+.logo.last {
+  margin-top: 25px;
 }
-.footer {
-  background: purple;
-  clear: both;
+.community-title.last {
+  color: #7CE370;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: normal;
+  position: absolute;
+  width: 150px;
+  top: 10px;
+  left: 400px;
+  margin-top: 10px;
+}
+.community-title.last2 {
+  color: #7CE370;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: normal;
+  position: absolute;
+  width: 150px;
+  top: 10px;
+  left: 800px;
+  margin-top: 10px;
+}
+.community-desc.last {
+  color: #C2D5C0;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  width: 300px;
+  position: absolute;
+  top: 20px;
+  left: 360px;
+  margin-top: 20px;
+}
+.community-desc.last2 {
+  color: #C2D5C0;
+  font-size: 30px;
+  font-weight: bold;
+  width: 300px;
+  position: absolute;
+  top: 20px;
+  left: 792px;
+  margin-top: 20px;
+}
+.community-desc.last2 > em {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+}
+.sangpyo {
+  color: #7CE370;
+  font-size: 15px;
+  margin: auto 300px 5px 30px;
+  border: 20px;
+  width: 1300px; 
 }
